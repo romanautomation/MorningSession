@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNGTestSuite]">
+  <test name="TestNGTest(failed)">
+    <classes>
+      <class name="TestNG.DependsOnMethods">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- TestNG.DependsOnMethods -->
+    </classes>
+  </test> <!-- TestNGTest(failed) -->
+</suite> <!-- Failed suite [TestNGTestSuite] -->
