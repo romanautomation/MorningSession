@@ -16,6 +16,9 @@ public class BrokenLinkTest {
 
 	public static void main(String[] args) throws MalformedURLException, Exception {
 		// TODO Auto-generated method stub
+		
+		int i;
+		
 		System.setProperty("webdriver.chrome.driver", "E:\\E swapnil\\software\\Selenium\\chrome driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
